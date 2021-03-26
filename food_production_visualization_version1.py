@@ -23,7 +23,7 @@ data_group = data_group.reset_index()
 years = list(range(1993,2014))
 years.reverse()
 
-#countries and elements
+#countries
 countries = list(set(data_group['Area']))
 countries.sort()
 
